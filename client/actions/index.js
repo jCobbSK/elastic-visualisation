@@ -7,9 +7,9 @@ export const pushDataToStore = (data) => ({
 
 export const loadData = () => (dispatch) =>
     fetch('https://7ns723fhfg.execute-api.us-east-1.amazonaws.com/dev/api', {
-        headers: new Headers({
-            'Content-Type': 'application/json',
-        }),
+      headers: new Headers({
+        'Content-Type': 'application/json',
+      }),
     })
     .then(response => response.json())
     .then(results => dispatch(pushDataToStore(results)));
