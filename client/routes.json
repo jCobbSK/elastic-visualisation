@@ -1,0 +1,7 @@
+[
+  {
+    "path": "/",
+    "page": "./pages/home/index.js",
+    "chunk": "main"
+  }
+]
