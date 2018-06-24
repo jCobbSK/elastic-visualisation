@@ -1,0 +1,15 @@
+<ImageNetStructure>
+    <releaseData>Release Data</releaseData>
+    <synset wnid="1" words="1st level" gloss="1st level">
+        <synset wnid="2-0" words="2nd level 0 item" gloss="2nd level 0 item">
+            <synset wnid="3-0" words="3rd level 0 item" gloss="3rd level"></synset>
+            <synset wnid="3-1" words="3rd level 1st item" gloss="3rd level 1st item"></synset>
+            <synset wnid="3-2" words="3rd level 2nd item" gloss="3rd level 2nd item"></synset>
+        </synset>
+        <synset wnid="2-1" words="2nd level 1 item" gloss="2nd level 1 item">
+            <synset wnid="3-0" words="3rd level 0 item" gloss="3rd level"></synset>
+            <synset wnid="3-1" words="3rd level 1st item" gloss="3rd level 1st item"></synset>
+            <synset wnid="3-2" words="3rd level 2nd item" gloss="3rd level 2nd item"></synset>
+        </synset>
+    </synset>
+</ImageNetStructure>
