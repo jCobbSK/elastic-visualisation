@@ -1,0 +1,12 @@
+.label {
+  display: block;
+  cursor: pointer;
+}
+
+.glyph {
+  padding-right: 5px;
+}
+
+.padded {
+  padding-left: 15px;
+}

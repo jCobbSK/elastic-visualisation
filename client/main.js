@@ -10,11 +10,13 @@
 
 import 'babel-polyfill';
 import 'whatwg-fetch';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FastClick from 'fastclick';
 import { Provider } from 'react-redux';
+
 
 import store from './core/store';
 import Main from './components/Main.jsx';

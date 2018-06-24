@@ -34,6 +34,7 @@ const config = {
   entry: [
     /* Material Design Lite (https://getmdl.io) */
     '!!style!css!react-mdl/extra/material.min.css',
+    '!!style!css!bootstrap/dist/css/bootstrap.min.css',
     'react-mdl/extra/material.min.js',
     /* The main entry point of your JavaScript application */
     './main.js',
@@ -113,6 +114,14 @@ const config = {
             minimize: !isDebug,
           })}`,
           'postcss-loader',
+        ],
+      },
+      {
+        test: /\.scss/,
+        loaders: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
         ],
       },
       {

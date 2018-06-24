@@ -8,17 +8,19 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.9.1",
+    "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
     "fastclick": "^1.0.6",
     "history": "^3.0.0",
+    "prop-types": "^15.6.2",
     "react": "^15.2.1",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^15.2.1",
     "react-loading-overlay": "^0.3.0",
     "react-mdl": "^1.6.1",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "redux-thunk": "^2.3.0",
-    "treant-js": "^1.0.1",
     "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
@@ -97,7 +99,7 @@
     }
   },
   "scripts": {
-    "eslint": "eslint components core test constants reducers actions main.js run.js webpack.config.js",
+    "eslint": "eslint --ext .jsx,.js .",
     "stylelint": "stylelint \"components/**/*.css\"",
     "lint": "npm run eslint && npm run stylelint",
     "test": "mocha --compilers js:babel-register",
