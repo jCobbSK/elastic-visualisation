@@ -22,10 +22,14 @@ export default class TreeBranchView extends React.PureComponent {
   hasChildren = () => this.props.data.children && this.props.data.children.length > 0
 
   render() {
-    const { name, size, children } = this.props.data;
+    const { name, size, children, openedForSearch } = this.props.data;
     const { level } = this.props;
 
     const paddingLeft = `${level * LEVEL_SPACING_PX}px`;
+
+    if (openedForSearch === false) {
+      return null;
+    }
 
     if (!this.hasChildren()) {
       return (
@@ -33,7 +37,7 @@ export default class TreeBranchView extends React.PureComponent {
       );
     }
 
-    if (this.state.expanded) {
+    if (this.state.expanded || openedForSearch === true) {
       return (
         <div>
           <TreeLabel

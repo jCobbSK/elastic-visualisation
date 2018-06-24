@@ -1,6 +1,6 @@
 {
   "main": {
-    "js": "/dist/main.js?4132cec561f386f0f74d"
+    "js": "/dist/main.js?06c91e8256c94e66b179"
   },
   "": {
     "eot": "/dist/f4769f9bdb7466be65088239c12046d1.eot",
@@ -8,6 +8,6 @@
     "svg": "/dist/89889688147bd7575d6327160d64e760.svg",
     "woff": "/dist/fa2772327f55d8198301fdb8bcfc8158.woff",
     "woff2": "/dist/448c34a56d699c29117adc64c43affeb.woff2",
-    "json": "/dist/a0ec9545bb87b9583d3e.hot-update.json"
+    "json": "/dist/ac3d9dc6383eb630ba6c.hot-update.json"
   }
 }

@@ -1,8 +1,15 @@
-import { PUSH_DATA } from '../constants/action-types.js';
+import { PUSH_DATA, SEARCH } from '../constants/action-types.js';
 
 export const pushDataToStore = (data) => ({
   type: PUSH_DATA,
   data,
+});
+
+export const triggerSearchAction = (searchTerm) => ({
+  type: SEARCH,
+  data: {
+    searchTerm,
+  },
 });
 
 export const loadData = () => (dispatch) =>

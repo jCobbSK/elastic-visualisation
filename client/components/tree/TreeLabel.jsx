@@ -28,7 +28,7 @@ export default function TreeLabel(props) {
 
 TreeLabel.propTypes = {
   name: PropTypes.string.isRequired,
-  size: PropTypes.string.isRequired,
+  size: PropTypes.number.isRequired,
   expanded: PropTypes.bool,
   onClick: PropTypes.func,
   leftPad: PropTypes.string,

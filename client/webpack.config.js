@@ -89,7 +89,7 @@ const config = {
   module: {
     loaders: [
       {
-        test: /\.jsx?$/,
+        test: /\.(jsx|js)?$/,
         include: [
           path.resolve(__dirname, './components'),
           path.resolve(__dirname, './core'),
